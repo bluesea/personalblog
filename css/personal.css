@@ -1,0 +1,57 @@
+
+
+/******** 资料 *******/
+.center_inf { text-align:center; padding-top:40px; background:url(../images/top_bg.jpg) no-repeat; background-size:100%; min-height:190px;}
+.head_Img { width:100%; text-align:center; margin:30px auto 10px auto;} 
+.head_Img img { width:80px !important; height:auto; border-radius:50px;}
+.center_inf p { font-size:12px; color:#f7f7f7; line-height:36px;}
+.center_inf img { width:20px; height:auto; margin:0 10px;}
+.center_inf b { color:#fff; font-size:18px; line-height:30px; font-weight:normal;}
+.personal_inf { width:96%; margin:1rem auto 62px auto;}
+.personal_inf ul {}
+.personal_inf li {}
+.bt { float:left; width:28%; line-height:36px;}
+.bt span { color:#999; font-size:12px;}
+.con { float:left; width:70%; text-align:left; line-height:36px;}
+.con b { color:#666; font-size:12px; font-weight:normal;}
+.con p { line-height:24px; text-indent:2rem;}
+
+
+/****** 工作 ******/
+.job { width:96%; margin:40px auto 62px auto;}
+.job_inf { width:100%; border-bottom:1px dotted #eee; padding-bottom:10px; border-bottom:1px solid #ddd; margin-bottom:10px;}
+.company_name { float:left; width:100%;}
+.company_name span { color:#333; font-size:14px; line-height:36px;}
+.position { float:right; width:40%; text-align:right;}
+.position span {color:#e83434; font-size:12px;  }
+
+.company_time { float:left; width:60%;}
+.company_time span {color:#999; font-size:12px; line-height:24px;}
+
+/** 工作职责 **/
+.work { width:100%;}
+.work h2 { font-size:12px; color:#888; line-height:36px;}
+.work ul {}
+.work li {}
+.work li span { color:#555; font-size:12px; line-height:24px;}
+
+
+
+/****** 技能 ******/
+.skill { width:100%; margin:50px auto 62px auto; display:table;}
+.skill ul { background:#eee;}
+.skill li { float:left; width:28%; background:#fff; margin:0.5rem 2.5%; padding:0 0 0.8rem 0; border-radius:0.5rem; text-align:center;}
+.skill li img  { width:4rem; height:auto; margin-bottom:0.6rem; border-radius:0.5rem 0.5rem 0 0;}
+.skill li h3 { color:#333; line-height:26px; height:26px; overflow:hidden; overflow:hidden; font-size:14px; padding:0 0.5rem; text-align:center;}
+.skill li p { color:#999; font-size:12px; text-align:center; line-height:24px;}
+
+
+/****** 作品 ******/
+.production { width:100%; margin:50px auto 62px auto; display:table;}
+.production ul { background:#eee;}
+.production li { float:left; width:44%; background:#fff; margin:0.5rem 3%; padding:0 0 0.8rem 0; border-radius:0.5rem; text-align:center;}
+.production li img  { width:100%; height:auto; margin-bottom:0.6rem;}
+.production li h3 { color:#333; line-height:22px; height:46px; overflow:hidden; overflow:hidden; font-size:14px; padding:0 0.5rem; text-align:center;}
+.production li p { color:#999; font-size:12px; text-align:center; line-height:24px;}
+
+

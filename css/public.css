@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+/* CSS reset */
+
+/*
+@media screen and (min-width:360px){body .content{font-size:16px}}
+@media screen and (min-width:400px){body .content{font-size:18px}}
+@media screen and (min-width:440px){body .content{font-size:20px}}
+@media screen and (min-width:480px){body .content{font-size:22px}}
+@media screen and (min-width:640px){body .content{font-size:28px}}
+
+@media screen and (min-width:360px) {.nmbcnucndy { height: 50px; overflow: hidden;}}
+@media screen and (min-width:400px) {.nmbcnucndy { height: 57px; overflow: hidden;}}
+@media screen and (min-width:440px) {.nmbcnucndy { height: 63px; overflow: hidden}}
+@media screen and (min-width:480px) {.nmbcnucndy { height: 69px; overflow: hidden}}
+@media screen and (min-width:640px) {.nmbcnucndy { height: 88px; overflow: hidden}}
+*/
+
+@font-face
+{
+font-family: myFirstFont;
+src: url('../fonts/STHeiti-Medium_CN.ttf'),
+     url('fonts/STHeiti-Medium.eot'); /* IE9+ */
+}
+*{ margin:0; padding:0;}
+html{ font-size:62.5%; font-family:Verdana, Geneva, sans-serif;}
+@media only screen and (max-width: 310px) {html {font-size: 81.3%;}}
+@media only screen and (max-width: 360px) and (min-width: 311px) {html{font-size: 87.5%;}}
+@media only screen and (max-width: 470px) and (min-width: 361px) {html {font-size: 93.8%;}}
+@media only screen and (max-width: 480px) and (min-width: 471px) {html {font-size: 100%;}}
+@media only screen and (max-width: 540px) and (min-width: 481px) {html {font-size: 125%;}}
+@media only screen and (min-width: 561px) {html {font-size: 150%;}}
+body{ font-size:1.4.8rem;}
+body,html{ font-family:"myFirstFont","Microsoft YaHei","宋体",Verdana, Arial, Helvetica, sans-serif; background:#fff;}
+strong,em,b,i{ font-size:1.2rem;}
+ul,ol{ list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-size:1.2rem; font-weight:normal;}
+img{ border:0;}
+img,input,select{ vertical-align:middle;}
+a{text-decoration:none; color:#333;}
+table {border-collapse:collapse; border-spacing:0;}
+:focus { outline: none; }/*针对Firfox*/
+a,area { blr:expression(this.onFocus=this.blur()) }/*针对IE*/
+.clearfix {zoom:1; display:table;}/*这个方法也可以清除浮动*/
+.clear_both{ clear:both; font-size:0; height:0; overflow:hidden;}
+.clearfix{clear:both; display:block;}/*msn使用的方法*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block;}
+
+/* 清除浮动 start */
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1;}
+
+/* 头部标题 start */
+header { width:100%; border-bottom:1px solid #eee; height:40px;position:fixed; top:0; background:#fff;}
+header h2 { color:#666; font-size:18px; text-align:center; line-height:40px;}
+
+/* 菜单栏 start */
+footer { width:100%; position:fixed; bottom:0; background:#fff; }
+footer ul {}
+footer ul li { width:24%; float:left; text-align:center; line-height:26px; height:62px;}
+footer ul li a { color:#999; font-size:12px; }
+footer ul li img { width:36px; height:36px;}
+footer ul li .cur { color:#e83434; font-weight:bold;}
